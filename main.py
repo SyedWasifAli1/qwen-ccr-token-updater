@@ -1,7 +1,7 @@
 import json
 from pathlib import Path
 
-# Paths
+# UPDATE THESE PATHS IF NEEDED
 QWEN_CREDS_PATH = Path(r"C:\Users\WASIF\.qwen\oauth_creds.json")
 CLAUDE_CONFIG_PATH = Path(r"C:\Users\WASIF\.claude-code-router\config.json")
 
@@ -31,6 +31,13 @@ def update_api_key(new_api_key):
     for provider in providers:
         if provider.get("name") == "qwen":
             old_key = provider.get("api_key", "N/A")
+
+            print("""
+╔══════════════════════════════════╗
+║   Developed by Syed Wasif Ali    ║
+║   AI • Full-Stack • Cloud        ║
+╚══════════════════════════════════╝
+""")
 
             print("\n🔑 OLD API KEY:")
             print(old_key)
