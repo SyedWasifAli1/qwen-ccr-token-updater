@@ -24,7 +24,6 @@ These folders are usually created automatically when:
 
 
 
----
 
 ## 🚀 Step-by-Step Setup
 
