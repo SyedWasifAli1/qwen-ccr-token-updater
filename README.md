@@ -163,6 +163,13 @@ def update_api_key(new_api_key):
         if provider.get("name") == "qwen":
             old_key = provider.get("api_key", "N/A")
 
+            print("""
+╔══════════════════════════════════╗
+║   Developed by Syed Wasif Ali    ║
+║   AI • Full-Stack • Cloud        ║
+╚══════════════════════════════════╝
+""")
+
             print("\n🔑 OLD API KEY:")
             print(old_key)
 
